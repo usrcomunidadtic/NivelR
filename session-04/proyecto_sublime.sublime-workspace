@@ -1,0 +1,499 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"ne",
+				"numero_aleatorio"
+			],
+			[
+				"ic",
+				"iCuantasCentenas"
+			],
+			[
+				"to",
+				"to_palabras"
+			],
+			[
+				"i",
+				"iCuantasUnidades"
+			],
+			[
+				"iC",
+				"iCuantasDecenas"
+			],
+			[
+				"el",
+				"elefantes"
+			],
+			[
+				"ll",
+				"llamar_otro_elefante"
+			],
+			[
+				"cdo-",
+				"cdo-section"
+			],
+			[
+				"feed",
+				"feed"
+			],
+			[
+				"Dragon",
+				"Dragon"
+			],
+			[
+				"or",
+				"orange_count"
+			],
+			[
+				"Orang",
+				"OrangeTree"
+			],
+			[
+				"ora",
+				"oranges"
+			],
+			[
+				"y",
+				"year_old"
+			],
+			[
+				"oran",
+				"orange_count"
+			],
+			[
+				"co",
+				"cotizarDolar"
+			],
+			[
+				"Ge",
+				"GeneradorPrecios"
+			],
+			[
+				"fech",
+				"fecha_vieja"
+			],
+			[
+				"lista",
+				"listaDesordenada"
+			],
+			[
+				"Li",
+				"listaDesordenada"
+			],
+			[
+				"M",
+				"M"
+			],
+			[
+				"tou",
+				"tough_var"
+			],
+			[
+				"iA",
+				"iAnoActual"
+			],
+			[
+				"ran",
+				"randomYear"
+			],
+			[
+				"Elefantes",
+				"Elefantes"
+			],
+			[
+				"Mi",
+				"MinutesInADecade"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"contents": "\n- Prueba o Test: como sinonimo de Experimento, es un procedimiento mediante el cual se trata de comprobar (confirmar o verificar) una o varias hipótesis\nEn software es el proceso que permite verificar y revelar la calidad de un producto software.\n\nEn software exitiran diferentes tipos de pruebas según el nivel de abstracción de lo que se esta evaluando.\n\n\n- Pruebas Unitarias: es una forma de probar el correcto funcionamiento de un módulo de código. Esto sirve para asegurar que cada uno de los módulos funcione correctamente por separado.\n- Pruebas de Integración.\n- \n- Pruebas Funcionales y No Funcionales.\n\n* Agenda:\n- Anuncios y Aclaratorias.\n- Textos Introductorios.\n- TDD? Test Driven Develope (http://www.ivona.com/en/?tk=S8L9cMnJNU)\nhttp://es.wikipedia.org/wiki/TDD entonces Desarrollo Dirigido por Pruebas (o por Ejemplos)\nLibro: Carlos Ble - http://www.dirigidoportests.com/el-libro\nhttp://aprendiendotdd.wordpress.com/2013/02/04/esquema-algoritmo-artefactos-tdd/\nhttp://aprendiendotdd.wordpress.com/2013/02/11/esquema-algoritmo-y-artefactos-a-tener-en-cuenta-en-tdd-parte-ii/\n\n- Practicas del TDD ver imagen. del circulo Rigurozo del TDD.\n- Algoritmo del TDD:\n	* Elegir un Requisito y un Ejemplo.\n	* Escribir las pruebas primero (Test First Development) \n	* Verificar que la prueba Falla. ROJO!\n	* Escribir el código MINIMO para que la prueba falle. Metáfora \"Déjelo simple\" (\"Keep It Simple, Stupid\" (KISS)).\n	* Se ejecuta la prueba y esta debe pasar. VERDE\n	* Refactorización (Refactoring). \n	* Actualizar lista de requisitos.\n\n- Y Cómo seria en Ruby??? xUnit.\n*Assertion == Afirmación sobre algo...\nhttp://ruby-doc.org/stdlib-2.0/libdoc/test/unit/rdoc/Test/Unit/Assertions.html",
+			"file": "Textos_introductorios",
+			"file_size": 277,
+			"file_write_time": 130072547635175781,
+			"settings":
+			{
+				"buffer_size": 1695,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "test_numeros_a_letras.rb",
+			"settings":
+			{
+				"buffer_size": 1496,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Numero_a_nombre_numero.rb",
+			"settings":
+			{
+				"buffer_size": 2087,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"contents": "\n#--\n#Template TEST.\n#require 'test/unit'\n#require_relative 'Script a probar.rb'\n#class Nombre_Clase  < Test::Unit::TestCase\n#  def test_digitos \n      #assert_equal('valor esperado' , 'valor actual/devuelto' )\n#  end\n#end",
+			"file": "ejemplos_pruebas.rb",
+			"file_size": 249,
+			"file_write_time": 130072561864570312,
+			"settings":
+			{
+				"buffer_size": 222,
+				"line_ending": "Windows",
+				"name": "ejemplos_pruebas"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 58.0,
+		"selected_items":
+		[
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 472.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/ComunidadTIC/Desktop/TTD_nivelR/ejercicio_factoriales.rb",
+		"/C/Users/ComunidadTIC/Desktop/test_numeros_a_letras.rb",
+		"/C/Users/ComunidadTIC/Desktop/Numero_a_nombre_numero.rb",
+		"/C/Users/ComunidadTIC/Desktop/factoriales_tdd.rb",
+		"/C/Users/ComunidadTIC/Desktop/TTD_nivelR/factoriales_tdd.rb",
+		"/C/Users/ComunidadTIC/Desktop/Elefantes_OO.rb",
+		"/C/Users/ComunidadTIC/Desktop/modulos_nivelR.rb",
+		"/C/Users/ComunidadTIC/Desktop/modulo2.rb",
+		"/C/Users/ComunidadTIC/Desktop/evento_nivelr.rb",
+		"/C/Users/ComunidadTIC/Desktop/nueva_clase.rb",
+		"/C/Users/ComunidadTIC/Desktop/\"ClaseNueva  #<ClaseNueva",
+		"/C/Users/ComunidadTIC/Desktop/ideone_UQjLxz.ruby",
+		"/C/Users/ComunidadTIC/Desktop/Numero_a_nombre_numero",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/RomanosClass.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/Romanos.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/dice.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/AgryBoss.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/AngryBoss.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/DeafGrandma.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/Duby.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/Dragon.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/eventos.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/99Botles.txt",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/99Bottles.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/BooksStore.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/csv_reader.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/BookStore/stock_stats.rb",
+		"/D/Herramientas Laborales/Ruby/Code/tut_classes/stock_stats/csv_reader.rb",
+		"/D/Herramientas Laborales/Ruby/Code/tut_classes/stock_stats/stock_stats.rb",
+		"/D/Herramientas Laborales/Ruby/Code/tut_classes/stock_stats/sales_data_feed.rb",
+		"/D/Herramientas Laborales/Ruby/Code/tut_classes/stock_stats/book_in_stock_8.rb",
+		"/D/Herramientas Laborales/Ruby/Code/tut_classes/stock_stats/book_in_stock.rb",
+		"/D/Herramientas Laborales/Ruby/Code/tut_classes/stock_stats/book_in_stock_1.rb",
+		"/D/Herramientas Laborales/Ruby/Code/tut_classes/stock_stats/book_in_stock_4.rb",
+		"/D/Herramientas Laborales/Ruby/Code/code/sl_csv/csvfile",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/CallBlock.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/Scrap.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/test.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/scrap_.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/scrap_xhtml.rb",
+		"/D/Herramientas Laborales/Ruby/ProbandoRuby/EncodingUTF8.rb",
+		"/C/BORRAME/test.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/Dragon.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/TableOfContents.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/OrangeTree.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/PricesGenerator.rb",
+		"/C/Documents and Settings/ComunidadTIC/Datos de programa/Sublime Text 2/Packages/Terminal/Terminal.sublime-settings",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/PriceGenerator.rb",
+		"/C/Documents and Settings/ComunidadTIC/Escritorio/Cotizador.html",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/dice.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/RomanosClass.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/Integer.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/BirthdayHelper.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/superpower.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/Ranges.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/Tiempo.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/DirToPlaylist.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/OrdenarLista.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/ContinentSize.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/factorial.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/Romanos.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/SayMoo.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/Duby.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/SortingArray.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/TableOfContentsWithArrays.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/array.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/LeapYears.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/DeafGrandma.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/Elefantes.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/99Bottles.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/SuGracia.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/test.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/AgryBoss.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/AngryBoss.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/gets.rb",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/	from D",
+		"/D/Herramientas Laborales/Ruby/Probando Ruby/CuantoTiempo.rb",
+		"/C/Documents and Settings/ComunidadTIC/Datos de programa/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/C/Documents and Settings/ComunidadTIC/Datos de programa/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/C/Documents and Settings/ComunidadTIC/Escritorio/test.htm",
+		"/D/Mis Documentos/Documentos/TESTING/TDD/Libro TDD/supercalculadora_python/supercalculadora.py",
+		"/D/Mis Documentos/Documentos/TESTING/TDD/Libro TDD/supercalculadora_python/ut_supercalculadora.py",
+		"/D/Mis Documentos/Documentos/TESTING/TDD/Libro TDD/supercalculadora_python/Libreta py.txt",
+		"/D/Mis Documentos/Documentos/TESTING/TDD/Libro TDD/supercalculadora_python/unittest.py"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"sNumero",
+			"fechas",
+			"narangito",
+			"\"",
+			"valor_numero",
+			"sNumero",
+			"sNurmero",
+			"upcase"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"naranjito",
+			"'",
+			"iCuantasUnidades",
+			"self",
+			"sNumero",
+			"sNurmero"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "Textos_introductorios",
+					"settings":
+					{
+						"buffer_size": 1695,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1695,
+								614
+							]
+						],
+						"settings":
+						{
+							"auto_name": "",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 285.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "test_numeros_a_letras.rb",
+					"settings":
+					{
+						"buffer_size": 1496,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								147,
+								160
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Numero_a_nombre_numero.rb",
+					"settings":
+					{
+						"buffer_size": 2087,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "ejemplos_pruebas.rb",
+					"settings":
+					{
+						"buffer_size": 222,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"auto_name": "ejemplos_pruebas",
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 209.0
+	},
+	"replace":
+	{
+		"height": 62.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"selected_items":
+		[
+			[
+				"",
+				"/D/Herramientas Laborales/Ruby/Probando Ruby/Ruby.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 191.0,
+	"status_bar_visible": true
+}

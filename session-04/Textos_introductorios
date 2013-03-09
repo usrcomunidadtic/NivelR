@@ -1,0 +1,35 @@
+
+- Prueba o Test: como sinonimo de Experimento, es un procedimiento mediante el cual se trata de comprobar (confirmar o verificar) una o varias hipótesis
+En software es el proceso que permite verificar y revelar la calidad de un producto software.
+
+En software exitiran diferentes tipos de pruebas según el nivel de abstracción de lo que se esta evaluando.
+
+
+- Pruebas Unitarias: es una forma de probar el correcto funcionamiento de un módulo de código. Esto sirve para asegurar que cada uno de los módulos funcione correctamente por separado.
+- Pruebas de Integración.
+- 
+- Pruebas Funcionales y No Funcionales.
+
+* Agenda:
+- Textos Introductorios.
+- TDD? Test Driven Develope (http://www.ivona.com/en/?tk=S8L9cMnJNU)
+http://es.wikipedia.org/wiki/TDD entonces Desarrollo Dirigido por Pruebas (o por Ejemplos)
+Libro: Carlos Ble - http://www.dirigidoportests.com/el-libro
+http://aprendiendotdd.wordpress.com/2013/02/04/esquema-algoritmo-artefactos-tdd/
+http://aprendiendotdd.wordpress.com/2013/02/11/esquema-algoritmo-y-artefactos-a-tener-en-cuenta-en-tdd-parte-ii/
+
+- Practicas del TDD ver imagen. del circulo Rigurozo del TDD.
+- Algoritmo del TDD:
+	* Elegir un Requisito y un Ejemplo.
+	* Escribir las pruebas primero (Test First Development) 
+	* Verificar que la prueba Falla. ROJO!
+	* Escribir el código MINIMO para que la prueba falle. Metáfora "Déjelo simple" ("Keep It Simple, Stupid" (KISS)).
+	* Se ejecuta la prueba y esta debe pasar. VERDE
+	* Refactorización (Refactoring). 
+	* Actualizar lista de requisitos.
+
+- Y Cómo seria en Ruby??? xUnit.
+*Assertion == Afirmación sobre algo...
+http://ruby-doc.org/stdlib-2.0/libdoc/test/unit/rdoc/Test/Unit/Assertions.html
+
+- Anuncios y Aclaratorias.
