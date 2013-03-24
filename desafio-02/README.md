@@ -7,7 +7,9 @@ Fizz Buzz. Kata TDD sin cosas raras.
 Tipo Home. Objetivo: Aplicar TDD simple, sin mokcs ni stub.
 
 
-El enunciado del ejercicio es el siguiente: Imagínate el siguiente escenario. Tienes 11 años y en los últimos 5 minutos del final de la lección, tu profesor de matemáticas decide hacer la clase más divertida, introduciendo un juego. El explica que irá señalando a cada compañero de clase en orden y preguntándole el siguiente número de la secuencia, comenzando por el número uno. La parte divertida es que, si el número es divisible por 3, tienes que decir “Fizz” en vez del número. Y si es divisible por 5, debes decir “Buzz”. Las matemáticas no es tu fuerte y tienes miedo de que te llegue el turno y no sepas qué decir. Así que, con el fin de evitar la vergüenza delante de toda la clase, tienes que obtener la lista completa impresa para saber qué decir. Tu clase tiene unos 33 alumnos y se pueden llegar a hacer unas tres rondas antes de que suene el timbre para el recreo. La siguiente clase de matemáticas es el jueves. ¡Codifícalo!
+El enunciado del ejercicio es el siguiente: 
+
+Imagínate el siguiente escenario. Tienes 11 años y en los últimos 5 minutos del final de la lección, tu profesor de matemáticas decide hacer la clase más divertida, introduciendo un juego. El explica que irá señalando a cada compañero de clase en orden y preguntándole el siguiente número de la secuencia, comenzando por el número uno. La parte divertida es que, si el número es divisible por 3, tienes que decir “Fizz” en vez del número. Y si es divisible por 5, debes decir “Buzz”. Las matemáticas no es tu fuerte y tienes miedo de que te llegue el turno y no sepas qué decir. Así que, con el fin de evitar la vergüenza delante de toda la clase, tienes que obtener la lista completa impresa para saber qué decir. Tu clase tiene unos 33 alumnos y se pueden llegar a hacer unas tres rondas antes de que suene el timbre para el recreo. La siguiente clase de matemáticas es el jueves. ¡Codifícalo!
 
 
 Enunciado:
@@ -30,7 +32,8 @@ Un número es Buzz si es divisible por 5 o si incluye un 5 en el número
 
 El proceso para aplicar TDD es el siguiente:
 
-1 Definimos la prueba unitaria. (Preparar valores, hacer, Assert)
-2 Ejecutar la prueba y falla.
-3 Agregar código mínimo necesario para pasar la prueba. Y probar hasta que pase (o luz verde)
-4 Refactorizar el código. Aplicar los principios SOLID.
+1- Definimos la prueba unitaria. (Preparar valores, hacer, Assert)
+2- Ejecutar la prueba y falla.
+3- Agregar código mínimo necesario para pasar la prueba. Y probar hasta que pase (o luz verde)
+4- Refactorizar el código. Aplicar los principios SOLID.
+
