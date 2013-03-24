@@ -1,7 +1,7 @@
 # NivelR
 ===================
 
-Repositorio publico del prupo de estudio "[Nivel R](https://plus.google.com/u/0/communities/103833788001935557125)"
+Repositorio publico del grupo de estudio "[Nivel R](https://plus.google.com/u/0/communities/103833788001935557125)"
 
 Nivel R es un grupo de estudio sobre el lenguaje de programación [Ruby](http://www.ruby-lang.org) para programadores miembros de ComunidadTIC que tengan intenciones de estudiar este lenguaje y sus aplicaciones.
 
