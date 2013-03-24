@@ -30,10 +30,7 @@ Un número es Buzz si es divisible por 5 o si incluye un 5 en el número
 
 El proceso para aplicar TDD es el siguiente:
 
-1- Definimos la prueba unitaria. (Preparar valores, hacer, Assert)
-
-2. Ejecutar la prueba y falla.
-
-3- Agregar código mínimo necesario para pasar la prueba. Y probar hasta que pase (o luz verde)
-
-4- Refactorizar el código. Aplicar los principios SOLID.
+1 Definimos la prueba unitaria. (Preparar valores, hacer, Assert)
+2 Ejecutar la prueba y falla.
+3 Agregar código mínimo necesario para pasar la prueba. Y probar hasta que pase (o luz verde)
+4 Refactorizar el código. Aplicar los principios SOLID.
