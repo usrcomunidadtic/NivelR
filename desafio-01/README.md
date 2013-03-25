@@ -1,16 +1,16 @@
-# NivelR - Desafio 1
+﻿# NivelR - Desafio 1
 ===================
 
 Desafío 1
 
-Tipo Homework. Aplicar estructuras de iteración y impresión por pantalla.
+Tipo Homework. Aplicar estructuras de iteración e impresión por pantalla.
 
 
-Escriba una script que de al ejecutarlo este: escriba la canción de los Elefantes hasta 100 elefantes.
+Escriba una script que de al ejecutarlo esto: escriba la canción de los Elefantes hasta 100 elefantes.
 
 "Un elefante se balanceaba sobre la tela de una araña,
 
-como veía que resistía fue a buscar a otro elefante más.
+como veía que resistía fue a buscar a otro elefante.
 
 Dos elefantes se balanceaban sobre la tela de una araña,
 
