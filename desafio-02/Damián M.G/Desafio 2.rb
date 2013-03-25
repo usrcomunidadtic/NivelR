@@ -46,6 +46,8 @@ class JuegoEnClase
 		print "\n\n"
 	end
 
+	private
+	
 	#Juzga el *numero* pasado como argumento devolviendo Fizz si este es divisible por 3 o si incluye el número 3 en sí, Buzz si este es divisible por 5 o si incluye el número 5 en sí,
 	#FizzBuzz si el número es divisible por 3 y por 5. La devolución siempre es en #String.
 	def juzgar_numero(numero)
