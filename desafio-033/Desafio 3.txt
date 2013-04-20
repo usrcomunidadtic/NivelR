@@ -1,0 +1,23 @@
+https://docs.google.com/document/d/1p-lx0c0vwwHQ2_z31HITM29A59fXNmYkrUZZ453KfyI/edit?usp=sharing
+
+Arbol de Mandarinas (No injertadas)
+
+- Aplicar los conceptos de Clases y Métodos. Método aleatorio.
+
+Descripción:
+
+Hacer una clase arbolMandarinas . Deberá tener un método altura que devuelve su altura y un método paso365Dias que cuando se le llama aumenta la edad del árbol en un año. Cada año crece el árbol y se hace más alto [mucho más de lo que piensas que un Mandarino debe crecer en un año], y después de un cierto número de años [de nuevo, tu llamada] el árbol debe morir. En los primeros años el árbol no debe producir fruta, pero después de un tiempo debería hacerlo, se supone que los árboles más viejos producen más fruta cada año que los árboles más jóvenes. Y, por supuesto, tú deberás ser capaz de contarMandarinas  (que devuelve el número de Mandarinas en el árbol), y tomarUnaMandarina (que reduce la @numeroMandarinas  en uno y devuelve un texto que te dice cómo era la Mandarina de deliciosa, o de lo contrario sólo te dice que no hay más Mandarinas para tomar este año) Asegúrate que las Mandarinas que no se recogen en un año se caen antes del próximo año.
+
+Nivel 2: Plagas y mal tiempo...
+
+- Aleatoriamente podrias crear plagas como “La Mosca de la Fruta” o gusanos que ataque tu plantación y destruya un porcentaje de la producción.
+
+- Aleatoriamente podríamos definir como estuvo el Clima ese año y entonces variar la producción.
+
+- En base a la cantidad de naranjas calcular cuantas cajas vas a necesitar para guardarlas, cuanto jugo puedes hacer.
+
+
+Nivel 3: Todo hecho con TDD.
+
+
+* Inspirado en el Libro: Aprende a programar con Ruby de Chris Pine
