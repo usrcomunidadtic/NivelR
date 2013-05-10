@@ -21,3 +21,23 @@ Nivel 3: Todo hecho con TDD.
 
 
 * Inspirado en el Libro: Aprende a programar con Ruby de Chris Pine
+
+Tips:
+Tip 1: Altura Entre 7 y 8 metros. Máximo 13 en condiciones optimas.?
+Tip 2: tarda unos 8 años en producir frutos?
+Tip 3: entre los 10 y los 15 años es el periodo de mayor producción.?
+Tip 4: serian unas 350 mandarinas promedio, como super exitoso 800?
+
+#Peso fruta
+200 gr. / ud. (buen clima) 
+100 gr. / ud. (mal clima)
+Empaque: Capacidad 20 kilogramos (50 x 35 x 30 cms)
+con buen clima, pesan 200 gr. y entran unas 100 unidades por cajon.
+con mal clima pesan 100 grm y entras unas 200 unidad por cajon.
+
+#Zumo
+40-50 ml una jugosa (buen clima)
+15-20 ml una seca (mal clima)
+con buen clima aleatoriamente entre 40-50 ml. => 600 unidades = 30 litros max.
+con mal clima aleatoriamente entre 15-20 ml. => 300 unidades = 6 litros max.
+

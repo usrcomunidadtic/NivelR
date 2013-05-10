@@ -18,6 +18,20 @@ Tip 1: Altura Entre 7 y 8 metros. Máximo 13 en condiciones optimas.﻿
 Tip 2: tarda unos 8 años en producir frutos﻿
 Tip 3: entre los 10 y los 15 años es el periodo de mayor producción.﻿
 Tip 4: serian unas 350 mandarinas promedio, como super exitoso 800﻿
+
+#Peso fruta
+200 gr. / ud. (buen clima) 
+100 gr. / ud. (mal clima)
+Empaque: Capacidad 20 kilogramos (50 x 35 x 30 cms)
+con buen clima, pesan 200 gr. y entran unas 100 unidades por cajon.
+con mal clima pesan 100 grm y entras unas 200 unidad por cajon.
+
+#Zumo
+40-50 ml una jugosa (buen clima)
+15-20 ml una seca (mal clima)
+con buen clima aleatoriamente entre 40-50 ml. => 600 unidades = 30 litros max.
+con mal clima aleatoriamente entre 15-20 ml. => 300 unidades = 6 litros max.
+
 =end
 
 #Ejemplos:
@@ -33,6 +47,21 @@ Tip 4: serian unas 350 mandarinas promedio, como super exitoso 800﻿
 # OK .tomarUnaMandarina() => @numeroMandarinas - 1 y 
 # OK .tomarUnaMandarina() => "La mandarina estaba deliciosa"||"no hay más mandarinas para tomar este año"
 # OK las Mandarinas que no se recogen en un año se caen antes del próximo año.
+
+# Nivel-2
+# Plagas: 
+## plaga “La Mosca de la Fruta” destruye el 90% de la producción.
+### OK Si cantidad_fruta = 100 => plagaMoscas() => cantidad_fruta = 10
+## plaga "Gusanos"  destruye el 40% la producción.
+### OK Si cantidad_fruta = 100 => plagaGusanos() => cantidad_fruta = 60
+## OK Plaga Aleatoria.
+# OK Clima: Malo (-80%), Regular(-40), Bueno(+25), Muy Bueno(+50). Aleatorio. 
+## OK Clima Aleatorio.
+# En base a la cantidad de naranjas calcular:
+## cuantas cajas vas a necesitar para guardarlas
+### OK buen clima, salen 600 unidades, se necesitan 6 cajones.
+### OK mal clima, salen 300 unidades, se necesitan 2 cajones.
+## cuanto jugo puedes hacer.
 
 
 require 'test/unit'
@@ -117,5 +146,108 @@ class Test_arbolMandarinas < Test::Unit::TestCase
 		como_estaba = @a.tomarUnaMandarina
 		assert_equal(0, @a.cantidad_fruta)
 		assert_equal('No hay más mandarinas' , como_estaba)
+	end
+
+	#Nivel 2.
+	def test_ataque_plaga_mosca
+		@a.edad = 13
+		@a.crecer
+		@a.cantidad_fruta = 100
+		@env.plagaMoscas(@a)
+		cantidad = @a.cantidad_fruta
+		assert_equal(10, @a.cantidad_fruta)
+	end
+
+	def test_ataque_plaga_gusanos
+		@a.edad = 13
+		@a.crecer
+		@a.cantidad_fruta = 100
+		@env.plagaGusanos(@a)
+		cantidad = @a.cantidad_fruta
+		assert_equal(60, @a.cantidad_fruta)
+	end
+
+	def test_plaga_aleatoria
+		@a.edad = 13
+		@env.paso365Dias(@a)
+		cantidad = @a.cantidad_fruta
+		@env.huboPlaga(@a,(rand(2)+1))
+		assert_equal(true, @env.plaga)
+		assert_not_equal(cantidad , @a.cantidad_fruta)
+	end
+
+	#Malo (-80%), Regular(-30), Bueno(+25), Muy Bueno(+50). Aleatorio.
+	def test_clima_malo
+		@a.edad = 13
+		@env.paso365Dias(@a)
+		cantidad = (@a.cantidad_fruta - ((@a.cantidad_fruta * 80)/100))
+		@env.clima(@a,0)
+		assert_equal('Malo', @env.estado_clima)
+		assert_equal(cantidad , @a.cantidad_fruta)
+	end
+
+	def test_clima_regular
+		@a.edad = 13
+		@env.paso365Dias(@a)
+		cantidad = (@a.cantidad_fruta - ((@a.cantidad_fruta * 30)/100))
+		@env.clima(@a,1)
+		assert_equal('Regular', @env.estado_clima)
+		assert_equal(cantidad , @a.cantidad_fruta)
+	end
+
+	def test_clima_bueno
+		@a.edad = 13
+		@env.paso365Dias(@a)
+		cantidad = (@a.cantidad_fruta - ((@a.cantidad_fruta * -25)/100))
+		@env.clima(@a,2)
+		assert_equal('Bueno', @env.estado_clima)
+		assert_equal(cantidad , @a.cantidad_fruta)
+	end
+
+	def test_clima_muy_bueno
+		@a.edad = 13
+		@env.paso365Dias(@a)
+		cantidad = (@a.cantidad_fruta - ((@a.cantidad_fruta * -50)/100))
+		@env.clima(@a,3)
+		assert_equal('Muy bueno', @env.estado_clima)
+		assert_equal(cantidad , @a.cantidad_fruta)
+	end
+
+	def test_clima_aleatorio
+		#Aveces falla, porque es Aleatorio y puede coincidir. Investigar como testear un rand.
+		@a.edad = 13
+		@env.paso365Dias(@a)
+		clima1 = @env.estado_clima
+		@env.paso365Dias(@a)
+		clima2 = @env.estado_clima
+		assert_not_equal(clima1, @env.estado_clima)
+	end
+
+	def test_calcular_cantidad_de_cajones_con_buen_clima
+		# buen clima, salen 600 unidades, 200 gr, se necesitan 6 cajones.
+		@a.edad= 13
+		@a.cantidad_fruta = 600
+		p = Produccion.new()
+		assert_equal(6 , p.embalar(@a.cantidad_fruta, 200))
+	end
+
+	def test_calcular_cantidad_de_cajones_con_mal_clima
+		# mal clima, salen 300 unidades, 100 gr, se necesitan 2 cajones.
+		@a.edad= 13
+		@a.cantidad_fruta = 300
+		p = Produccion.new()
+		assert_equal(2 , p.embalar(@a.cantidad_fruta, 100))
+	end
+
+	def test_calcular_cantidad_de_zumo_con_buen_clima
+		#con buen clima aleatoriamente entre 40-50 ml. => 600 unidades = 30 litros max.
+		@a.edad= 13
+		@a.cantidad_fruta = 600
+		p = Produccion.new()
+		litros = p.procesar(@a.cantidad_fruta, 200)
+		if  litros < 30 && litros <= (600*50/1000) 
+			salio_bien = true			
+		end
+		assert_equal(true ,salio_bien)
 	end
 end
