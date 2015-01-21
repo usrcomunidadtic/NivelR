@@ -1,6 +1,8 @@
 # NivelR
 ===================
 
+[![Gitter](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/comunidadtic/NivelR?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 Repositorio publico del grupo de estudio "[Nivel R](https://plus.google.com/u/0/communities/103833788001935557125)"
 
 Nivel R es un grupo de estudio sobre el lenguaje de programación [Ruby](http://www.ruby-lang.org) para programadores miembros de ComunidadTIC que tengan intenciones de estudiar este lenguaje y sus aplicaciones.
